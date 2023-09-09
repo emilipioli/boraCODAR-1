@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms 2 </title>
+</head>
+
+<body>
+    <script>
+        let lado = parseInt(prompt("coloque a quantidade de lados do poligono:  "));
+        let cm = parseInt(prompt("coloque os centímetros dos lados do poligono:  "));
+        let resul = 0
+
+        if(lado == 3){
+            resul = cm*lado
+            document.write("TRIÂNGULO e valor do perímetro:  " + resul)
+        }
+
+        else if(lado == 4){
+            resul = cm*cm
+            document.write("QUADRADO e valor da área:  " + resul)
+        }
+
+        else if(lado == 5){
+            document.write("PENTÁGONO")
+        }
+
+        else if(lado <3){
+            document.write("NÃO É UM POLÍGONO")
+        }
+
+        else if(lado>5){
+            document.write("POLÍGONO NÃO IDENTIFICADO")
+        }
+    </script>
+</body>
+
+</html>

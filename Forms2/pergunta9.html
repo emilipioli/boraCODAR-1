@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms 2</title>
+</head>
+
+<body>
+    <script>
+        let valor1 = parseInt(prompt("coloque o primeiro valor: "))
+        let valor2 = parseInt(prompt("coloque o segundo valor: "))
+
+        let opera = parseInt(prompt("Digite o número desejado: 1) Adição, 2) Subtração, 3) Divisão, 4) Multiplicação"))
+        let resul = 0
+
+        if(opera == 1){
+            resul = valor1 + valor2
+            document.write("o resultado da soma é: " + resul)
+        }
+
+        else if(opera == 2){
+            resul = valor1 - valor2
+            document.write("o resultado da subtração é: " + resul)
+        }
+
+        else if(opera == 3){
+            resul = valor1 / valor2
+            document.write("o resultado da divisão é: " + resul)
+        }
+
+        else if(opera == 4){
+            resul = valor1 * valor2
+            document.write("o resultado da multiplicação é: " + resul)
+        }
+
+
+    </script>
+</body>
+
+</html>
